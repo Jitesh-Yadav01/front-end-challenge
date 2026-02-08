@@ -1,4 +1,4 @@
-![Logo](./public/FFFFFF-1.png)
+![Logo](./public/sloozecms.png)
 # Slooze take home challenge-front-end!!
 
 ## Commodities Management Feature Flow
