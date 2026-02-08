@@ -15,7 +15,7 @@ export async function GET() {
     const prismaDir = path.join(process.cwd(), 'prisma');
     const prismaFiles = fs.existsSync(prismaDir) ? fs.readdirSync(prismaDir) : [];
 
-    let users = [];
+    let users: { email: string; role: string }[] = [];
     let userCount = 0;
     let error = null;
 
